@@ -1,24 +1,181 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital@0;1&family=Roboto:wght@400;500;700&family=Space+Mono:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather:ital@0;1&family=Roboto:wght@400;500;700&family=Space+Mono:ital@0;1&family=Unbounded:wght@400;700&display=swap');
 
-.cool-blue {
+.ocean-blue {
+    color: #ffffff;
     background-color: #2d5dcc;
-    color: #fff;
-}
-
-.color-panel {
-    display: inline-block;
-    width: 32%;
+    border-color: #000000;
     text-align: center;
     margin: 20px auto;
     min-height: 100px;
+    
+}
+
+.float_color-panel {
+  border-color: #000000;
+  min-height: 100px
+  width: 32%;
+  text-align: center;
+  margin: 20px auto;
+  padding: 8px;
+}
+
+ .radioactive-green {
+  background-color: #32CD32;
+  text-align: center;
+  margin: 20px auto;
+  color: #ffffff;
+}
+
+.colors {
+  display: inline-block;
+  width: 100%;
+  border-color: 10px thin #000000; 
+  color: black solid;
+  margin: 0 auto;
+}
+
+.fonts {
+  margin: 20px auto;
+  width: 100%;
+}
+
+
+//.color-panel {
+  //display: inline-block;
+  //width: 150px;
+  //border-color: 10px thin #000000;
+  //margin: auto;
+//}
+
+.mint-green {
+    background-color: #4fe0b0;
+    color: #ffffff;
+}
+
+.hibiscus-red {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+/* fonts list */
+
+.lato {
+  text-decoration: underline;
+  font-family: lato solid; 
+  font-size: 1.5em;
+}
+
+.lato_400 {
+  font-weight: 400;
+  font-family: lato;
+}
+
+.lato_400_italic {
+  font-weight: 400;
+  font-style: italic;
+  font-family: lato;
+}
+
+.lato_700 {
+  font-weight: 700;
+  font-family: lato;
+}
+
+.lato_900 {
+  font-weight: 900;
+  font-family: lato;
+}
+
+.merriweather {
+  text-decoration: underline;
+  font-family: merriweather solid; 
+  font-size: 1.5em;
+}
+
+.merriweather_400 {
+  font: merriweather;
+  font-weight: 400;
+}
+
+.merriweather_400_italic {
+  font: merriweather;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.merriweather_700 {
+  font: merriweather;
+  font-weight: 700;
+}
+
+.merriweather_900 {
+  font: merriweather;
+  font-weight: 900;
+}
+
+.roboto {
+  text-decoration: underline;
+  font-family: roboto solid; 
+  font-size: 1.5em;
+}
+
+.roboto_400 {
+  font: roboto;
+  font-weight: 400;
+}
+
+.roboto_500 {
+  font: roboto;
+  font-weight: 500;
+}
+
+.roboto_700 {
+  font: roboto;
+  font-weight: 700;
+}
+
+.text_styles {
+  width: 100%;
+}
+
+.text_style_h1 {
+  font: lato;
+  text-decoration: none;
+  text-align: start;
+  list-style-type: none;
+}
+
+h1 {
+  font-family: unbounded;
+  font-size: 3em;
+  text-decoration: underline;
+  font-weight: 700;
+  color: black;
+  text-align: center;
+  margin: auto;
+  padding: 20px;
+  position: relative;
+}
+
+h2 {
+  color: red;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: red underline;
+  //border-style: solid;
+  //border-color: black;
+  //border-width: solid;
+  font-family: unbounded;
 }
 
 div {
-    display: block;
-    Width: 300px;
-    border: 15px solid green;
-    padding: 50px;
-    margin: 20px;
+    display: inline-block;
+    width: 300px;
+    border: 15px solid;
+    padding: 60px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
 }
 
 body {
@@ -26,10 +183,19 @@ body {
     margin: 0 10%;
 }
 
+li {
+  list-style-type: square;
+}
+
 p {
     display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    font: 30px black solid;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    justify-content: center;
+}
+
+.description {
+  font-weight: 400;
 }
